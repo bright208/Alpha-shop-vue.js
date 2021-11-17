@@ -1,24 +1,20 @@
-# alpha-shop-vue.js
+# 規格與功能說明
 
-## Project setup
-```
-npm install
-```
+[專案位置]
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 規格:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+由Vue.js開發的結帳頁面網站
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 功能:
+
+1.輸入資料後會有驗證成功圖示。
+
+2.步驟區域依所在頁面切換「完成」及「進行中」圖示。
+
+3.總價隨著商品數量的增減、運費等變數動態顯示。
+
+4.當購物車品項數量為0時，提示"空購物車"。
+
+5.RWD頁面，提供手機與桌機版。
